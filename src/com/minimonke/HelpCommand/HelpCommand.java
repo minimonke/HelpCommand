@@ -17,10 +17,14 @@ public class HelpCommand extends JavaPlugin{
 		if(cmd.getName().equalsIgnoreCase("help")){
 			if(sender instanceof Player){
 				sender.sendMessage(ChatColor.GOLD + "-------Help Menu-----");
-				sender.sendMessage(ChatColor.GOLD + "/tpa : ")
+				sender.sendMessage(ChatColor.GOLD + "/tpa " + ChatColor.BLUE + ": Request to teleport to a player.");
+				sender.sendMessage(ChatColor.GOLD + "/spawn " + ChatColor.BLUE + ": Teleport back to spawn.");
+				sender.sendMessage(ChatColor.GOLD + "/sw " + ChatColor.BLUE + ": Switch Teams.");
+				sender.sendMessage(ChatColor.GOLD + "Help Menu Developed by minimonke");
 				
 			}
 		}
+		return false;
 	}
 
 }

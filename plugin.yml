@@ -1,0 +1,7 @@
+name: HelpCommand
+main: com.minimonke.HelpCommand.HelpCommand
+version: 1.0
+
+commands:
+  help:
+    Returns the commands on the server
