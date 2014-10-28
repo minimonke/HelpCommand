@@ -5,3 +5,5 @@ version: 1.0
 commands:
   help:
     Returns the commands on the server
+  helpauthor:
+    Returns the author of the plugin
